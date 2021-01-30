@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <script
-          src="https://smd.stage.codox.io/plugins/wave.client.js?apiKey=58e429b0-be4a-4cd8-8c8d-9a37fb0adec0&app=quilljs"
+          src="https://smd.stage.codox.io/plugins/wave.client.js?apiKey=14744409-3890-4728-9cfd-01a8396f102d&app=quilljs"
           type="text/javascript"></script>
         </body>
       </Html>

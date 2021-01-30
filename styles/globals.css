@@ -14,3 +14,90 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main-container {
+  display: flex;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+.document-link {
+  padding: 10px 14px !important;
+  height: 48px;
+  font-size: 15px;
+  width: 105px;
+  color: #626773;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  color: #3b454e;
+  float: right;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+.document-link:hover{
+  background: #e6ecf1 !important;
+}
+
+.document-link:after{
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+}
+
+.active {
+  
+  color: rgb(255, 147, 0);
+  background: white !important;
+  border-width: 1px 0px 1px 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-color: rgb(230, 236, 241) !important;
+  
+}
+
+.document-list {
+  width: fit-content;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.editors {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.editor {
+  flex: 1 1 auto;
+  max-width: 80%;
+  height: 700px;
+  margin-right: 10px;
+}
+
+.ql-container  {
+  min-height: 500px !important;
+}
+
+.ql-editor{
+  min-height: 500px !important;
+}
